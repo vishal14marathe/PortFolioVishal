@@ -1,9 +1,29 @@
 import { motion } from 'framer-motion'
-import { education } from '../data/eduction'
+
+const education = [
+    {
+        degree: "B.Tech (Computer Science and Engineering)",
+        institution: "Padmabhooshan Vastraodada Patil Institute of Technology, Budhgaon(Sangli)",
+        year: "2021 - 2025",
+        details: "CGPA: 7.90 | Relevant coursework: Data Structures, Algorithms, Database Management, Web Development"
+    },
+    {
+        degree: "12th Standard",
+        institution: "Laxmidevi Prathamik Vidyamandir, Sonand",
+        year: "2021",
+        details: "Percentage: 79% | Maharashtra State Board"
+    },
+    {
+        degree: "10th Standard",
+        institution: "Shri Sidhnath High School, Walekhindi",
+        year: "2019",
+        details: "Percentage: 68.50% | Maharashtra State Board"
+    }
+]
 
 export default function Education() {
     return (
-        <section id="education" className="py-20">
+        <section id="education" className="py-20 bg-gray-100 dark:bg-gray-800">
             <div className="container mx-auto px-4">
                 <motion.div
                     initial={{ opacity: 0 }}
@@ -34,29 +54,25 @@ export default function Education() {
                                     </div>
                                 </div>
                                 <p className="text-gray-700 dark:text-gray-300">{edu.details}</p>
-                                {index === 0 && (
+                                {/* {index === 0 && (
                                     <div className="mt-4">
                                         <h4 className="font-semibold mb-2">Certifications:</h4>
                                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                                             <li className="flex items-center">
                                                 <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                                                Product Management Professional Certificate – UMD & USMx (edX)
+                                                Java Programming - Internshela Trainings (12/2022 - 02/2023)
                                             </li>
                                             <li className="flex items-center">
                                                 <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                                                Business Analytics – Harvard Business School Online
+                                                Full Stack Web Development - MERN Stack (02/2024 - 05/2024)
                                             </li>
                                             <li className="flex items-center">
                                                 <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                                                AI Essentials for Business – Harvard Business School Online
-                                            </li>
-                                            <li className="flex items-center">
-                                                <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                                                Agile Product Management – Institute of Product Leadership
+                                                Flipkart Grid 6.0 SDT Competition Participant (08/2024)
                                             </li>
                                         </ul>
                                     </div>
-                                )}
+                                )} */}
                             </motion.div>
                         ))}
                     </div>

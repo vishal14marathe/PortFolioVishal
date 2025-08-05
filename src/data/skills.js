@@ -1,12 +1,40 @@
+// export const skills = {
+//   technical: [
+//     "ReactJs", "Java", "Python", "SQL", "NodeJs", "ExpressJS"
+//   ],
+//   tools: [
+//     "GitHub", "Docker", "VS-Code", "Postman", "Agile/Scrum", "MVP Design"
+//   ],
+//   product: [
+//     "Product Roadmapping", "User Research", "Prototyping",
+//     "A/B Testing", "Market Analysis", "Feature Specification"
+//   ]
+// }
+
 export const skills = {
   technical: [
-    "Java", "Python", "SQL", "Android SDK", "OpenCV", "Machine Learning"
+    "MERN Stack",
+    "Java",
+    "JavaScript",
+    "SQL",
+    "API Integration",
+    "Figma"
   ],
   tools: [
-    "Jira", "Figma", "Trello", "Excel", "Agile/Scrum", "MVP Design"
+    "GitHub",
+    "VS Code",
+    "Postman",
+    "Bootstrap",
+    "Figma (UI Prototyping)",
+    "Agile Methodologies"
   ],
-  product: [
-    "Product Roadmapping", "User Research", "Prototyping", 
-    "A/B Testing", "Market Analysis", "Feature Specification"
+
+  core: [
+    "Data Structures & Algorithms",
+    "Object-Oriented Programming",
+    "Database Management",
+    "Web Performance Optimization",
+    "Cross-browser Compatibility",
+    "Debugging & Testing"
   ]
-}
+};

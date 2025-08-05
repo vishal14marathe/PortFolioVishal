@@ -21,8 +21,8 @@ export default function Contact() {
                     <FaEnvelope className="text-blue-500 mt-1 mr-3" />
                     <div>
                       <h4 className="font-medium">Email</h4>
-                      <a href="mailto:shrishhpsirri@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors">
-                        shrishhpsirri@gmail.com
+                      <a href="mailto:vishalmarathe2024@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors">
+                        vishalmarathe2024@gmail.com
                       </a>
                     </div>
                   </div>
@@ -30,8 +30,8 @@ export default function Contact() {
                     <FaPhone className="text-blue-500 mt-1 mr-3" />
                     <div>
                       <h4 className="font-medium">Phone</h4>
-                      <a href="tel:+919923956601" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors">
-                        +91 9923956601
+                      <a href="tel:+919112625608" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors">
+                        +91 9112625608
                       </a>
                     </div>
                   </div>
@@ -40,12 +40,12 @@ export default function Contact() {
                     <div>
                       <h4 className="font-medium">LinkedIn</h4>
                       <a
-                        href="https://linkedin.com/in/shrishprakashgiri234"
+                        href="https://www.linkedin.com/in/vishal-marathe-50763722b/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors"
                       >
-                        linkedin.com/in/shrishprakashgiri234
+                        linkedin.com/in/vishal-marathe-50763722b/
                       </a>
                     </div>
                   </div>

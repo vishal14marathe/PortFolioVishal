@@ -2,26 +2,15 @@ import { motion } from 'framer-motion'
 
 const experiences = [
   {
-    role: "Product Management Trainee",
-    company: "Concerto Systems & Software",
-    duration: "May 2025 - Present",
-    location: "Navi Mumbai",
+    role: "Web Developer Intern",
+    company: "ExtraByte Learning",
+    duration: "Sep 2024 - Oct 2024",
+    location: "Remote",
     responsibilities: [
-      "Supporting the product team in the design and enhancement of payment gateway solutions",
-      "Conducting market research, competitor analysis, and user feedback evaluations",
-      "Assisting in documentation, feature specification, and sprint backlog grooming",
-      "Learning end-to-end fintech product development processes"
-    ]
-  },
-  {
-    role: "Android Development Intern",
-    company: "Concerto Systems & Software",
-    duration: "Jan 2024 - Apr 2024",
-    location: "Navi Mumbai",
-    responsibilities: [
-      "Developed and optimized Android app features with improved UI responsiveness",
-      "Participated in Agile sprints, assisting with code reviews and bug fixes",
-      "Gained experience in mobile app lifecycle management and backend integrations"
+      "Built and optimized responsive websites using modern web technologies",
+      "Improved user experience through implementation of design principles",
+      "Collaborated with development team to integrate back-end functionality",
+      "Enhanced site performance and learned new tools and frameworks"
     ]
   }
 ]
@@ -39,7 +28,7 @@ export default function Experience() {
           <h2 className="text-3xl font-bold text-center mb-12">Experience</h2>
           <div className="space-y-8 max-w-4xl mx-auto">
             {experiences.map((exp, index) => (
-              <motion.div 
+              <motion.div
                 key={index}
                 whileHover={{ scale: 1.02 }}
                 className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md"
@@ -64,6 +53,29 @@ export default function Experience() {
                 </ul>
               </motion.div>
             ))}
+
+            {/* QSpider Internship (if you want to include) */}
+            {/* <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                <div>
+                  <h3 className="text-xl font-bold">Upcoming Internship</h3>
+                  <p className="text-gray-600 dark:text-gray-300">QSpider</p>
+                </div>
+                <div className="mt-2 md:mt-0">
+                  <p className="text-gray-500 dark:text-gray-400">Nov 2024 - Jan 2025</p>
+                  <p className="text-gray-500 dark:text-gray-400">3-month program</p>
+                </div>
+              </div>
+              <ul className="space-y-2">
+                <li className="flex items-start">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-2"></span>
+                  <span>3-month intensive training program in software development</span>
+                </li>
+              </ul>
+            </motion.div> */}
           </div>
         </motion.div>
       </div>

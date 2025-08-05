@@ -21,33 +21,33 @@ export default function Hero() {
           className="md:w-1/2 text-center md:text-left"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4 dark:text-white">
-            Hi, I'm <span className="text-blue-500 dark:text-blue-400">Shrish</span>
+            Hi, I'm <span className="text-blue-500 dark:text-blue-400">Vishal</span>
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-600 dark:text-gray-300">
-            Product Manager & Fintech Specialist
+            React Devloper | ML
           </h2>
 
           <p className="text-lg mb-8 max-w-lg text-gray-700 dark:text-gray-300">
-            Creating innovative solutions at the intersection of technology and finance.
+            Strong technical foundation in full-stack development enables effective cross-functional leadership
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-            {/* <motion.a
+            <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href=""
+              href="https://github.com/vishal14marathe/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg flex items-center"
             >
               <FaGithub className="mr-2" /> GitHub
-            </motion.a> */}
+            </motion.a>
 
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://linkedin.com/in/shrishprakashgiri234"
+              href="https://www.linkedin.com/in/vishal-marathe-50763722b/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg flex items-center"
@@ -55,7 +55,7 @@ export default function Hero() {
               <FaLinkedin className="mr-2" /> LinkedIn
             </motion.a>
 
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href={resumePath}
@@ -63,11 +63,12 @@ export default function Hero() {
               className="bg-gray-700 hover:bg-gray-800 dark:bg-gray-600 dark:hover:bg-gray-700 text-white px-6 py-3 rounded-lg flex items-center"
             >
               <FaFileDownload className="mr-2" /> Download Resume
-            </motion.a>
+            </motion.a> */}
           </div>
         </motion.div>
 
         {/* Right Column - 3D Scene */}
+
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}

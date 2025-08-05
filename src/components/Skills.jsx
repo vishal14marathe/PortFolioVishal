@@ -45,9 +45,9 @@ export default function Skills() {
                                 </ul>
                             </div>
                             <div>
-                                <h3 className="text-xl font-semibold mb-4 border-b pb-2 border-gray-200 dark:border-gray-600">Product Skills</h3>
+                                <h3 className="text-xl font-semibold mb-4 border-b pb-2 border-gray-200 dark:border-gray-600">Core Skills</h3>
                                 <ul className="space-y-2">
-                                    {skills.product.map((skill, index) => (
+                                    {skills.core.map((skill, index) => (
                                         <motion.li
                                             key={index}
                                             whileHover={{ x: 5 }}
@@ -59,6 +59,8 @@ export default function Skills() {
                                     ))}
                                 </ul>
                             </div>
+
+
                         </div>
                     </div>
                 </motion.div>

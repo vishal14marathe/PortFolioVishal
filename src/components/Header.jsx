@@ -22,7 +22,7 @@ export default function Header({ darkMode, setDarkMode }) {
                     transition={{ duration: 0.5 }}
                 >
                     <a href="/" className="text-xl font-bold text-gray-900 dark:text-white">
-                        <span className="text-blue-500 dark:text-blue-400">Shrish</span> Giri
+                        <span className="text-blue-500 dark:text-blue-400">Vishal</span> Marathe
                     </a>
                 </motion.div>
 

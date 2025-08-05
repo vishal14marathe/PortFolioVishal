@@ -1,24 +1,44 @@
 import { motion } from 'framer-motion'
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 const projects = [
   {
-    title: "Driver Drowsiness Detection System",
-    description: "Developed a real-time driver drowsiness detection system using Machine Learning and Image Processing to enhance road safety by analyzing facial features.",
-    technologies: ["Python", "OpenCV", "Machine Learning", "Deep Learning"],
-    year: "2023-2024"
+    title: "Weather Forecast Website",
+    description: "Developed a web application that retrieves live weather data using APIs. My first web project that helped me understand API integration and frontend development.",
+    technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
+    year: "2023",
+    githubLink: "https://github.com/vishal14marathe/WeatherApp",
+    liveLink: "https://vishal14marathe.github.io/WeatherApp/" // Add actual live link if available
   },
   {
-    title: "Bus Locator Application",
-    description: "Innovated a real-time bus tracking system using GPS and GPRS technology to improve public transport efficiency and reduce passenger wait times.",
-    technologies: ["Java", "Android SDK", "MySQL", "Apache Tomcat"],
-    year: "2020-2021"
+    title: "Video Conference Website",
+    description: "Built a full-featured video conferencing platform with real-time video calls, screen sharing, and chat functionality using MERN stack.",
+    technologies: ["MongoDB", "Express.js", "React", "Node.js", "WebRTC"],
+    year: "2024",
+    githubLink: "http://github.com/vishal14marathe/meeting",
+    liveLink: "#" // Add actual live link if available
+  },
+  {
+    title: "Wanderlust - Property Hosting",
+    description: "Created a property booking platform with user authentication, dynamic search, and responsive design. Successfully deployed the application.",
+    technologies: ["MERN Stack", "Tailwind CSS", "JWT Auth", "MongoDB"],
+    year: "2024",
+    githubLink: "https://github.com/vishal14marathe/Wonderlust",
+    liveLink: "#" // Add actual live link if available
+  },
+  {
+    title: "LinkedIn Clone",
+    description: "Developed a LinkedIn-inspired professional networking platform with user profiles, connections, and post functionality.",
+    technologies: ["React", "Firebase", "Redux", "Tailwind CSS"],
+    year: "2024",
+    githubLink: "https://github.com/vishal14marathe/linkedin-clone",
+    liveLink: "#" // Add actual live link if available
   }
 ]
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-20 bg-gray-100 dark:bg-gray-800">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0 }}
@@ -51,6 +71,28 @@ export default function Projects() {
                         </span>
                       ))}
                     </div>
+                  </div>
+                  <div className="flex space-x-4 mt-4">
+                    {project.githubLink && (
+                      <a
+                        href={project.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center text-blue-600 dark:text-blue-400 hover:underline"
+                      >
+                        <FaGithub className="mr-1" /> Code
+                      </a>
+                    )}
+                    {project.liveLink && (
+                      <a
+                        href={project.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center text-green-600 dark:text-green-400 hover:underline"
+                      >
+                        <FaExternalLinkAlt className="mr-1" /> Live Demo
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.div>

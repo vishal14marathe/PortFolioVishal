@@ -13,21 +13,23 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
           <div className="max-w-4xl mx-auto bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg">
             <p className="text-lg mb-6">
-              Aspiring Product Manager with a strong foundation in fintech, data analysis, and software development. 
-              Experienced in Android development, payment gateway systems, and user-focused product design.
+              Computer Science Engineering student at Padmabhooshan Vastraodada Patil Institute of Technology
+              with hands-on experience in full-stack development and a growing interest in product management.
+              Skilled in MERN stack, Java, and modern web technologies with multiple successful projects deployed.
             </p>
             <p className="text-lg mb-6">
-              Passionate about solving real-world problems through agile methodologies, digital innovation, 
-              and cross-functional collaboration. Currently gaining hands-on experience in product lifecycle 
-              management and fintech platforms.
+              Passionate about learning new technologies and solving complex problems through innovative solutions.
+              Recently completed internships in web development while exploring product strategy and fintech applications.
+              Strong foundation in both technical implementation and user experience design.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div>
-                <h3 className="text-xl font-semibold mb-4">Key Strengths</h3>
+                <h3 className="text-xl font-semibold mb-4">Technical Expertise</h3>
                 <ul className="space-y-2">
-                  {['Leadership', 'Innovative Product Thinking', 'User-Centric Design', 
-                    'Team Collaboration', 'Problem Solving', 'Agile Execution', 
-                    'Strategic Roadmapping'].map((skill, index) => (
+                  {['Full-Stack Development (MERN)', 'Java Programming',
+                    'API Integration', 'Database Management (SQL/MongoDB)',
+                    'Responsive Web Design', 'Problem Solving (DSA)',
+                  ].map((skill, index) => (
                     <li key={index} className="flex items-center">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
                       {skill}
@@ -36,14 +38,16 @@ export default function About() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4">Hobbies & Interests</h3>
+                <h3 className="text-xl font-semibold mb-4">Achievements & Interests</h3>
                 <ul className="space-y-2">
-                  {['Running', 'Cycling', 'Drawing', 'Volunteering for Social Causes'].map((hobby, index) => (
-                    <li key={index} className="flex items-center">
-                      <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-                      {hobby}
-                    </li>
-                  ))}
+                  {['Flipkart Grid 6.0 Participant', 'Certified in Java Programming',
+                    'MERN Stack Certification', 'Learning New Technologies',
+                    'Problem Solving'].map((item, index) => (
+                      <li key={index} className="flex items-center">
+                        <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                        {item}
+                      </li>
+                    ))}
                 </ul>
               </div>
             </div>
