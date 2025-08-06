@@ -15,14 +15,14 @@ export default function Footer() {
 
                     <div className="flex space-x-6">
                         <a
-                            href="https://linkedin.com/in/shrishprakashgiri234"
+                            href="https://www.linkedin.com/in/vishal-marathe-50763722b/"
                             target="_blank"
                             className="text-gray-400 hover:text-blue-400 transition-colors text-xl"
                         >
                             <FaLinkedin />
                         </a>
                         <a
-                            href="mailto:shrishhpsirri@gmail.com"
+                            href="mailto:vishalmarathe2024@gmail.com"
                             className="text-gray-400 hover:text-red-400 transition-colors text-xl"
                         >
                             <FaEnvelope />
