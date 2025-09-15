@@ -11,12 +11,12 @@ const projects = [
     liveLink: "https://vishal14marathe.github.io/WeatherApp/" // Add actual live link if available
   },
   {
-    title: "Video Conference Website",
+    title: "Dr Appointment booking system",
     description: "Built a full-featured video conferencing platform with real-time video calls, screen sharing, and chat functionality using MERN stack.",
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "WebRTC"],
     year: "2024",
-    githubLink: "http://github.com/vishal14marathe/meeting",
-    liveLink: "#" // Add actual live link if available
+    githubLink: "https://github.com/vishal14marathe/prescripto.git",
+    liveLink: "https://prescripto-frontend-vrze.onrender.com/" // Add actual live link if available
   },
   {
     title: "Wanderlust - Property Hosting",
@@ -24,16 +24,17 @@ const projects = [
     technologies: ["MERN Stack", "Tailwind CSS", "JWT Auth", "MongoDB"],
     year: "2024",
     githubLink: "https://github.com/vishal14marathe/Wonderlust",
-    liveLink: "#" // Add actual live link if available
+    liveLink: "https://wanderlust-travel-listings.onrender.com" // Add actual live link if available
   },
-  {
-    title: "LinkedIn Clone",
-    description: "Developed a LinkedIn-inspired professional networking platform with user profiles, connections, and post functionality.",
-    technologies: ["React", "Firebase", "Redux", "Tailwind CSS"],
-    year: "2024",
-    githubLink: "https://github.com/vishal14marathe/linkedin-clone",
-    liveLink: "#" // Add actual live link if available
-  }
+
+  // {
+  //   title: "LinkedIn Clone",
+  //   description: "Developed a LinkedIn-inspired professional networking platform with user profiles, connections, and post functionality.",
+  //   technologies: ["React", "Firebase", "Redux", "Tailwind CSS"],
+  //   year: "2024",
+  //   githubLink: "https://github.com/vishal14marathe/linkedin-clone",
+  //   liveLink: "#" // Add actual live link if available
+  // }
 ]
 
 export default function Projects() {
