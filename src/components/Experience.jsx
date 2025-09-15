@@ -12,6 +12,18 @@ const experiences = [
       "Collaborated with development team to integrate back-end functionality",
       "Enhanced site performance and learned new tools and frameworks"
     ]
+  },
+  {
+    role: " React JS Developer Intern",
+    company: "Concerto Software & Systems Private Limited ",
+    duration: "May 2025 – Sept 2025 ",
+    location: "Office",
+    responsibilities: [
+      "Worked on a real-time project at Concerto Soft Company using React.js",
+      "Developed responsive UI components and ensured smooth user interactions",
+      "Collaborated with the team to integrate APIs and optimize overall performance",
+      "Gained practical exposure to industry standards and improved problem-solving skills in frontend development"
+    ]
   }
 ]
 

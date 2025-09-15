@@ -23,9 +23,11 @@ function App() {
 
   return (
     <div className={`min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300`}>
+
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
 
       <main className="bg-white dark:bg-gray-900">
+
         <section id="home" className="section bg-white dark:bg-gray-900">
           <Hero />
         </section>
@@ -53,9 +55,12 @@ function App() {
         <section id="contact" className="section bg-white dark:bg-gray-900">
           <Contact />
         </section>
-      </main>
 
-      <Footer className="bg-white dark:bg-gray-800" />
+        <section id="footer" className="section bg-white dark:bg-gray-900">
+          <Footer />
+        </section>
+
+      </main>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { FaMoon, FaSun } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
 export default function Header({ darkMode, setDarkMode }) {
+
     const navLinks = [
         { name: 'Home', to: 'home' },
         { name: 'About', to: 'about' },
