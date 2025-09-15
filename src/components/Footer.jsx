@@ -22,11 +22,14 @@ export default function Footer() {
                             <FaLinkedin />
                         </a>
                         <a
-                            href="mailto:vishalmarathe2024@gmail.com"
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=vishalmarathe2024@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="text-gray-400 hover:text-red-400 transition-colors text-xl"
                         >
                             <FaEnvelope />
                         </a>
+
                     </div>
                 </div>
 
