@@ -34,7 +34,7 @@ const projects = [
     year: "2025",
     githubLink: "https://github.com/vishal14marathe/EyeCareApp.git",
     liveLink: "https://eye-care-app-tan.vercel.app/" // Add actual live link if available
-  }
+  },
 
     {
     title: "Cliant - Satva Organic",
