@@ -27,7 +27,25 @@ const projects = [
     liveLink: "https://wanderlust-travel-listings.onrender.com" // Add actual live link if available
   },
 
-  // {
+  {
+    title: "Cliant -EyeCare App",
+    description: "EyeCare App is a modern React-based eyewear showcase application that helps users explore different glasses and sunglasses collections through an interactive and visually appealing interface. The application features 3D eyewear visualization, smooth animations, Firebase integration, and a fully responsive design for an enhanced user experience.",
+    technologies: ["React", "Firebase", "Redux", "Tailwind CSS"],
+    year: "2025",
+    githubLink: "https://github.com/vishal14marathe/EyeCareApp.git",
+    liveLink: "https://eye-care-app-tan.vercel.app/" // Add actual live link if available
+  }
+
+    {
+    title: "Cliant - Satva Organic",
+    description: "Satva Organic is a modern e-commerce web application designed for selling organic products, fresh vegetables, seeds, nuts, and healthy food items. The project is built using React.js and Firebase, providing users with a seamless shopping experience, secure authentication, cart management, order processing, and an admin dashboard for product management.",
+    technologies: ["React", "Firebase", "Redux", "Tailwind CSS"],
+    year: "2026",
+    githubLink: "https://github.com/vishal14marathe/Satva_Organic.git",
+    liveLink: "https://satva-organic.vercel.app/" // Add actual live link if available
+  }
+
+    // {
   //   title: "LinkedIn Clone",
   //   description: "Developed a LinkedIn-inspired professional networking platform with user profiles, connections, and post functionality.",
   //   technologies: ["React", "Firebase", "Redux", "Tailwind CSS"],
